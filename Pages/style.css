@@ -1,0 +1,170 @@
+body , * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBarContainer {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+}
+
+li {
+    margin: 10px;
+}
+
+.nav-link {
+    padding: 2px;
+    font-size: 18px;
+}
+
+.bodyImageContainer {
+    background-image: url("./Photos/lawanyaung.jpg");
+    filter: blur(4px);
+    -webkit-filter: blur(3px);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position:top;
+    height: 654px;
+}
+
+.navbar {
+    background-color:#dce775;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSize {
+    margin-top: 20px;
+    height: 100px;
+    border-radius: 40px;
+    width: 100px;
+    position: relative;
+}
+
+.textAndBackground {
+    position: relative;
+}
+
+.bg-text {
+    background-color: #dce775;
+    background-color: rgba(162, 184, 20, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .headerOfLa {
+      font-size: 50px;
+      margin-bottom: 20px;
+      color: rgb(67, 48, 208);
+  }
+
+  .paraText {
+      color: #343a40;
+  }
+
+  .divContainer {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .videoTag {
+      width: 100%;
+  }
+
+  .facebookLink {
+      padding: 10px;
+  }
+
+  .facebookLink a {
+      text-decoration: none;
+  }
+
+  .fbLink  {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  .comment  {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .fbLogo , .emailLogo {
+      font-size: 30px;
+      margin: 10px;
+  }
+
+  .textOne {
+      font-size: 20px;
+      margin-bottom: 20px;
+  }
+
+  .imgWidth {
+      width: 100%;
+  }
+
+  .section {
+      margin-top: 50px;
+  }
+  
+a {
+      user-select : none;
+  }
+
+  /* image Slider */
+
+  
+  .carousel-container {
+      margin: auto;
+    }
+    
+    .carousel-slide {
+        border: 5px solid #343a40;
+        display: flex;
+        width: 100%;
+        height: 500px;
+  }
+
+  .icon {
+      font-size: 20px;
+  }
+
+  .logoContainer {
+      margin-top: 10px;
+  }
+
+  /* .iconContainer {
+      border: 3px solid #343a40;
+  } */
+
+  .lineHeight {
+      line-height: 42px;
+  }
+
+  .loveCount , .likeCount , .shareCount {
+      width: 100%;
+      height: 20px;
+      margin-bottom: 10px;
+  }
+
+  /* .thumbIcon {
+      display: none;
+  } */
